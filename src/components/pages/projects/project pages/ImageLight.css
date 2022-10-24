@@ -1,0 +1,44 @@
+.carosalimg-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    height: 180px;
+    width: 100%;
+
+
+    background-color: rgba(0, 0, 0, 0.418);
+}
+
+.carosal-indv{
+    display: flex;
+    flex-direction: column;
+}
+
+.carosal-indv:hover{
+    box-shadow: .5px .5px 8px rgba(0, 0, 0, 0.39);
+}
+
+.carosal-indv img{
+    height: 150px;
+    width: 100%;
+    cursor: pointer;
+    
+}
+
+
+
+
+@media screen and (max-width: 840px){
+    .carosalimg-container{
+        flex-wrap: wrap;
+        height: 100%;
+        justify-content: space-evenly;
+    }
+    .carosel-2 img {
+        width: 70%;
+    }
+    .container-op-2 {
+        flex-direction: column;
+    }
+}

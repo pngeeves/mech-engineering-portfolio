@@ -1,0 +1,36 @@
+.modal-picture{
+    margin: auto;
+    padding: 0 20px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: clamp(50%, 600px, 60%);
+    height: auto;
+}
+
+.lighthous-img-indv{
+    width: clamp(50%, 600px, 90%);
+    height: auto;
+}
+
+.modul-button{
+    height: 40px;
+    width: 40px;
+    
+    border-radius: 50%;
+    background: none;
+    border: none;
+    color: white;
+
+    cursor: pointer;
+}
+
+.indv-text-pic{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    color:white;
+}
