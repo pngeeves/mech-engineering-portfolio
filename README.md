@@ -1,4 +1,4 @@
-# Mechanical Engineering Portfolio 
+# Mechanical Engineering Website
 A potfolio website for a recent graduate mechanical engineer. 
 
 deployed project: https://mech-engineering-portfolio.vercel.app/
@@ -12,3 +12,9 @@ deployed project: https://mech-engineering-portfolio.vercel.app/
 - HTML
 - CSS
 - Framer
+
+## Screenshots 
+![dashboard](/screenshots/main-page.png)
+![dashboard](/screenshots/project-square.png)
+![dashboard](/screenshots/project-page-top.png)
+![dashboard](/screenshots/project-pop-up.png)
